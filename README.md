@@ -24,7 +24,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(regexcite)
-## basic example code
+strsplit1("a,b,c", split = ",")
+#> [1] "a" "b" "c"
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
@@ -50,7 +51,3 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
-
-usage of str_split_one()
-
-`strsplit1("a,b,c", split = ",")`

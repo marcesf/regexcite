@@ -35,7 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(regexcite)
-## basic example code
+strsplit1("a,b,c", split = ",")
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
@@ -53,8 +53,3 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
-
-usage of str_split_one()
-
-```strsplit1("a,b,c", split = ",")
-```
