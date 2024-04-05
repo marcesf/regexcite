@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of regexcite is to …
+The goal of regexcite is to have functions for parsing and manipulation
+of regular expression.
 
 ## Installation
 
