@@ -35,7 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(regexcite)
-strsplit1("a,b,c", split = ",")
+str_split_one("a,b,c", ",", n = 2)
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
